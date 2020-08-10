@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Less | Sth. I Like</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <link rel="icon" href="/logo.png">
+    <meta name="description" content="Sth. I Like">
+    <meta name="keywords" content="css,less">
+    <link rel="preload" href="/assets/css/0.styles.3dbad9be.css" as="style"><link rel="preload" href="/assets/js/app.8f39d3a5.js" as="script"><link rel="preload" href="/assets/js/2.ff18d154.js" as="script"><link rel="preload" href="/assets/js/8.8ff02206.js" as="script"><link rel="prefetch" href="/assets/js/10.4ba1eb23.js"><link rel="prefetch" href="/assets/js/11.ee89b399.js"><link rel="prefetch" href="/assets/js/12.45b87ab6.js"><link rel="prefetch" href="/assets/js/13.06f9c925.js"><link rel="prefetch" href="/assets/js/14.8cfce616.js"><link rel="prefetch" href="/assets/js/15.b8aa034a.js"><link rel="prefetch" href="/assets/js/16.44ac73ce.js"><link rel="prefetch" href="/assets/js/17.4e752d4a.js"><link rel="prefetch" href="/assets/js/18.1451f66e.js"><link rel="prefetch" href="/assets/js/19.4296da42.js"><link rel="prefetch" href="/assets/js/20.7897712d.js"><link rel="prefetch" href="/assets/js/3.6fefd083.js"><link rel="prefetch" href="/assets/js/4.f682ecf0.js"><link rel="prefetch" href="/assets/js/5.a415ad3c.js"><link rel="prefetch" href="/assets/js/6.8fad3561.js"><link rel="prefetch" href="/assets/js/7.ec39dd12.js"><link rel="prefetch" href="/assets/js/9.fd678d7d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.3dbad9be.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sth. I Like</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Learn" class="dropdown-title"><span class="title">Learn</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/js/" class="nav-link">
+  JS
+</a></li><li class="dropdown-item"><!----> <a href="/learn/css/" class="nav-link router-link-active">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/learn/tool/" class="nav-link">
+  Tool
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Learn" class="dropdown-title"><span class="title">Learn</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/js/" class="nav-link">
+  JS
+</a></li><li class="dropdown-item"><!----> <a href="/learn/css/" class="nav-link router-link-active">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/learn/tool/" class="nav-link">
+  Tool
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/learn/css/" aria-current="page" class="sidebar-link">概述</a></li><li><a href="/learn/css/less.html" aria-current="page" class="active sidebar-link">Less</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/learn/css/less.html#变量" class="sidebar-link">变量</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#选择器" class="sidebar-link">选择器</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#extend" class="sidebar-link">extend</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#merge" class="sidebar-link">merge</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#mixins" class="sidebar-link">mixins</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#import" class="sidebar-link">import</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#mixins-guards" class="sidebar-link">mixins guards</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#css-guards" class="sidebar-link">css guards</a></li><li class="sidebar-sub-header"><a href="/learn/css/less.html#loops" class="sidebar-link">loops</a></li></ul></li><li><a href="/learn/css/sass.html" class="sidebar-link">Sass</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="less"><a href="#less" class="header-anchor">#</a> Less</h1> <h2 id="变量"><a href="#变量" class="header-anchor">#</a> 变量</h2> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">// 数值变量</span>
+<span class="token variable">@midgray<span class="token punctuation">:</span></span> #666<span class="token punctuation">;</span>
+<span class="token comment">// 属性变量</span>
+<span class="token variable">@c<span class="token punctuation">:</span></span> color<span class="token punctuation">;</span>
+<span class="token comment">// 选择器变量</span>
+<span class="token variable">@el<span class="token punctuation">:</span></span> el<span class="token punctuation">;</span>
+<span class="token comment">// 路径变量</span>
+<span class="token variable">@images<span class="token punctuation">:</span></span> <span class="token string">'../images'</span>
+<span class="token comment">// 声明变量</span>
+<span class="token atrule">@path<span class="token punctuation">:</span> '../../common/css'
+
+@import &quot;@</span><span class="token punctuation">{</span>path<span class="token punctuation">}</span><span class="token operator">/</span>index.less&quot;<span class="token punctuation">;</span>
+<span class="token selector">.@{el}-header</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">&quot;@{images}/header.png&quot;</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+  <span class="token selector">.@{el}-nav</span> <span class="token punctuation">{</span>
+    <span class="token variable">@c<span class="token punctuation">:</span></span> #fff<span class="token punctuation">;</span>
+    <span class="token property">background-@{c}</span><span class="token punctuation">:</span> <span class="token variable">@midgray</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">&amp;:hover</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> .7<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// v3.0.0</span>
+<span class="token selector">.@{el}-aside</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">@midgray</span><span class="token punctuation">;</span>
+  <span class="token selector">.@{el}-s-item</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 引用最近的属性名所对应的值</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> $color<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br></div></div><h2 id="选择器"><a href="#选择器" class="header-anchor">#</a> 选择器</h2> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #666<span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;-cancel</span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #666<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">&amp;-confirm</span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.blue-theme &amp;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 觉得适合用于公用组件需要差异化时</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> #0000d9<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="extend"><a href="#extend" class="header-anchor">#</a> extend</h2> <p>继承必须放在选择器最后</p> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token selector">.basestyle</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  &amp;<span class="token punctuation">:</span><span class="token function">extend</span><span class="token punctuation">(</span><span class="token string">&quot;.basestyle&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn:extend(&quot;.basestyle&quot;)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 需要完全匹配（除了属性选择器带引号的）</span>
+<span class="token comment">// 不能使用变量的选择器</span>
+<span class="token comment">// 在@media中使用，只匹配当前@media声明内的；否则匹配同层级@median内部的</span>
+<span class="token comment">// 相对于mixins，extend使生成的css更小，mixins只能与简单的选择器一起使用</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="merge"><a href="#merge" class="header-anchor">#</a> merge</h2> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">// +  逗号分隔</span>
+<span class="token selector">.boxShadow ()</span> <span class="token punctuation">{</span>
+  <span class="token property">box-shadow+</span><span class="token punctuation">:</span> 0 0 2px #999<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.boxShadow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">box-shadow+</span><span class="token punctuation">:</span> 0 0 1px #666<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// output</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 2px #999<span class="token punctuation">,</span> 0 0 1px #666<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// +_  空格分隔</span>
+<span class="token selector">.translate ()</span> <span class="token punctuation">{</span>
+  <span class="token property">transform+_</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>10px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.translate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">transform+_</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>10deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// output</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>10px<span class="token punctuation">)</span> <span class="token function">rotate</span><span class="token punctuation">(</span>10deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><h2 id="mixins"><a href="#mixins" class="header-anchor">#</a> mixins</h2> <p>未来版本不推荐缺省括号</p> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">// 没输出的mixin</span>
+<span class="token selector">.getStyle ()</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ccc<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getStyle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// !important会适用于所有属性</span>
+<span class="token selector">.getStyle ()</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ccc<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getStyle</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Named param</span>
+<span class="token selector">.getStyle (<span class="token variable">@color</span>: #ccc; <span class="token variable">@background</span>: #fff; <span class="token variable">@bColor</span>: #999)</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token variable">@background</span><span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid <span class="token variable">@bColor</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getStyle</span><span class="token punctuation">(</span>#999<span class="token punctuation">,</span> <span class="token variable">@background<span class="token punctuation">:</span></span> #f0f0f0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// arguments</span>
+<span class="token selector">.box-shadow (<span class="token variable">@x</span>: 0; <span class="token variable">@y</span>: 0; <span class="token variable">@blur</span>: 1px; <span class="token variable">@color</span>: #333)</span> <span class="token punctuation">{</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> <span class="token variable">@arguments</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.box-shadow</span><span class="token punctuation">(</span>1px<span class="token punctuation">;</span> 7px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// reset</span>
+<span class="token selector">.getBackground (...)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.getBackground (<span class="token variable">@color</span>: #999; ...)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.getBackground (<span class="token variable">@color</span>: #999; <span class="token variable">@reset</span>...)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.getBackground (<span class="token variable">@color</span>: #999; <span class="token variable">@reset</span>...)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br></div></div><h2 id="import"><a href="#import" class="header-anchor">#</a> import</h2> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token variable">@import</span> <span class="token punctuation">(</span>reference<span class="token punctuation">)</span> <span class="token string">&quot;filename&quot;</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="mixins-guards"><a href="#mixins-guards" class="header-anchor">#</a> mixins guards</h2> <p>when 里面可以用的比较运算符：=, &gt;=, &gt;, &lt;=, &lt;</p> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token selector">.getColor (<span class="token variable">@color</span>) when (lightness(<span class="token variable">@color</span>) &gt; 50%)</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.getColor (<span class="token variable">@color</span>) when (lightness(<span class="token variable">@color</span>) &lt;= 50%)</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #ffa500<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getColor</span><span class="token punctuation">(</span>#ccc<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getColor</span><span class="token punctuation">(</span>#000<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>逻辑运算符：and，逗号，not</p> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">// 并且</span>
+<span class="token selector">.getHeight (<span class="token variable">@size</span>) when (<span class="token variable">@size</span> &gt; 30) and (<span class="token variable">@size</span> &lt; 60)</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token variable">@size</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getHeight</span><span class="token punctuation">(</span>40<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 或</span>
+<span class="token selector">.getWidth (<span class="token variable">@size</span>) when (<span class="token variable">@size</span> &gt; 60) , (<span class="token variable">@size</span> &lt; 20)</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getWidth</span><span class="token punctuation">(</span>5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 非</span>
+<span class="token selector">.getRadius (<span class="token variable">@n</span>) when not (<span class="token variable">@n</span> &gt; 10)</span> <span class="token punctuation">{</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">@n</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getRadius</span><span class="token punctuation">(</span>7<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><p>default()为默认匹配，当其余条件不满足时匹配</p> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token selector">.getShadow (<span class="token variable">@size</span>) when (isnumber(<span class="token variable">@size</span>)) and (<span class="token variable">@size</span> &lt; 10)</span> <span class="token punctuation">{</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 <span class="token variable">@size</span> #ccc<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.getShadow (<span class="token variable">@size</span>) when (default())</span> <span class="token punctuation">{</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 1px #ccc<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.getShadow</span><span class="token punctuation">(</span>7px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="css-guards"><a href="#css-guards" class="header-anchor">#</a> css guards</h2> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">// v1.5.0</span>
+<span class="token variable">@size<span class="token punctuation">:</span></span> 20px<span class="token punctuation">;</span>
+<span class="token selector">button when (isnumber(<span class="token variable">@size</span>)) and (<span class="token variable">@size</span> &gt; 10)</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token variable">@size</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.el-btn</span> <span class="token punctuation">{</span>
+  <span class="token variable">@size<span class="token punctuation">:</span></span> 20px<span class="token punctuation">;</span>
+  <span class="token selector">&amp; when (isnumber(<span class="token variable">@size</span>)) and (<span class="token variable">@size</span> &gt; 10)</span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #ccc<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="loops"><a href="#loops" class="header-anchor">#</a> loops</h2> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token selector">.setCol (<span class="token variable">@n</span>, <span class="token variable">@i</span>: i) when (<span class="token variable">@i</span> =&lt; <span class="token variable">@n</span>)</span> <span class="token punctuation">{</span>
+  <span class="token selector">.el-col-@{i}</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100% <span class="token operator">*</span> <span class="token variable">@i</span> <span class="token operator">/</span> 12<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  .<span class="token function">setCol</span><span class="token punctuation">(</span><span class="token variable">@n</span><span class="token punctuation">,</span> <span class="token variable">@i</span> <span class="token operator">+</span> 1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+.<span class="token function">setCol</span><span class="token punctuation">(</span>12<span class="token punctuation">,</span> 1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/learn/css/" class="prev router-link-active">
+        概述
+      </a></span> <span class="next"><a href="/learn/css/sass.html">
+        Sass
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.8f39d3a5.js" defer></script><script src="/assets/js/2.ff18d154.js" defer></script><script src="/assets/js/8.8ff02206.js" defer></script>
+  </body>
+</html>
